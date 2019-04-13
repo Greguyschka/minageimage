@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Bodoni;
+    src: url(../fonts/BodoniFLF-Bold.ttf);
+  }
+body {
+    background-image: url("../assets/asset3-bluebg.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.home .gcweb-menu{
+    border:none;
+}
+.home .gcweb-menu button[aria-haspopup=true]{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.gcweb-menu button[aria-haspopup=true]:hover, .gcweb-menu button[aria-haspopup=true][aria-expanded=true]{
+    color: #0c1153;
+}
+.home .home-banner {
+    background-color: transparent;
+    background-image: none;
+}
+.home .home-banner>.container {
+    background-image: url("../assets/asset4-model1.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+ }
+.home .home-banner .innerbox, .home .home-banner.sky .innerbox {
+    background-color: transparent;
+}
+.innerbox h1 {
+    border-bottom: none;
+    color: #0c1153;
+    font-family: Bodoni, sans-serif;
+    font-size: 5.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: lowercase;
+ }
+ .innerbox p {
+     color: #86BBd8;
+     font-style: italic;
+ }
+ .home .home-banner .promo {
+     background-color: transparent;
+ }
+ .home .home-banner a.figcaption *, .home .home-banner a:visited.figcaption * {
+     color: #b22097;
+     font-weight: bold;
+ }
+ .home .home-banner a.figcaption figcaption, .home .home-banner a:visited.figcaption figcaption {
+    color: #b22097;
+    font-weight: normal;
+}
+.home .home-most-requested {
+    background-image: url("../assets/asset7-garden.svg");
+    background-position: left -26px bottom -48px;
+    b
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.home .home-your-gov {
+    background-image: url("../assets/asset9-model4.svg");
+    background-position: right -18px bottom -87px;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+ }
+ .btn {
+     border-radius: 30px;
+ }
+ .btn.btn-primary {
+    background-color: #0c1153;
+ }
+ .well {
+     background-color: #E4F4FD;
+ }
