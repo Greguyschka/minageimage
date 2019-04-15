@@ -53,6 +53,9 @@ body {
      color: #b22097;
      font-weight: bold;
  }
+ a.figcaption button {
+    color: #fff;
+ }
  .home .home-banner a.figcaption figcaption, .home .home-banner a:visited.figcaption figcaption {
     color: #b22097;
     font-weight: normal;
@@ -71,6 +74,29 @@ body {
     background-size: contain;
     box-sizing: border-box;
  }
+/*   .gc-srvinfo.focus div>div {
+     text-align: center;
+     background-size: cover;
+     background-color: #86BBd8;
+     background-image: url("https://source.unsplash.com/random");
+     box-sizing: padding-box;
+     padding: 15px;
+ }
+ .gc-srvinfo.focus h3 {
+    background-color: #fff;
+    font-family: Bodoni, sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.9;
+    margin: 5px;
+    mix-blend-mode: lighten;
+    text-transform: lowercase;
+ }
+ .gc-srvinfo.focus h3 a, .gc-srvinfo.focus h3 a:visited {
+    color: #0c1153;
+    letter-spacing: -1px;
+    text-decoration: none;
+ }  */
  .btn {
      border-radius: 30px;
  }
@@ -80,3 +106,101 @@ body {
  .well {
      background-color: #E4F4FD;
  }
+ /* Diaond grid system */
+ .grid {
+    padding-left: 10rem;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  .grid::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  .grid-item {
+    background-color: #E6BFEC;
+    color: #0c1153;
+    float: left;
+    list-style-type: none;
+    margin: 12.5% 5.5% 5.5% 5.5%;
+    padding-bottom: 27rem;
+    transform: translateX(12rem) rotate(45deg);
+    width: 27rem;
+  }
+  .grid-inner {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    text-align: center;
+    padding-top: 33%;
+  }
+  .grid-inner a.h3 {
+    font-family: Bodoni, sans-serif;
+    font-size: 6.4rem;
+    font-weight: bold;
+    line-height: 0.8;
+    margin: 0;
+    mix-blend-mode: lighten;
+    text-decoration-line: none;
+    text-transform: lowercase;
+   }
+  .grid-item .grid-item {
+      padding-bottom: 13.5rem;
+      position: fixed;
+      transform: rotate(0deg);
+      width: 13.5rem;
+  }
+  .grid-item:nth-child(2),
+  .grid-item:nth-child(3) {
+    margin-top: 11%;
+  } 
+  .grid-item .grid-item:nth-child(1) {
+      left: -15.4rem;
+      top: 10.1rem;
+  }
+  .grid-item .grid-item:nth-child(2) {
+    left: 11.9rem;
+    top: -16.9rem;
+  }
+  .grid-item .grid-item:nth-child(3) {
+        left: 25.9rem;
+        top: -3.1rem;
+  }
+  .grid-item .grid-item:nth-child(4) {
+    left: -1.5rem;
+    top: 24rem;
+  }
+  .grid-item .grid-item .grid-inner {
+       transform: rotate(-45deg); 
+       padding-top: 28%;  
+  }
+  .grid-item .grid-item a.h3 {
+    font-size: 2rem;
+    _line-height: 0.8;
+    padding: 0;
+    margin: 0;
+  }
+/*   
+  .grid-item:nth-child(5n+4) {
+    margin-left: 21.9%;
+  }
+  
+  .grid-item:nth-child(5n+6) {
+    clear:left;
+  }
+  
+  .grid-item:nth-child(5n+6):last-of-type {
+    margin-left: 38.25%;
+  }*/
+  
+  .grid-item:hover {
+    background-color: #DFB4E6;
+    color: #B22097;
+  }
