@@ -37,9 +37,9 @@ body {
     border-bottom: none;
     color: #0c1153;
     font-family: Bodoni, sans-serif;
-    font-size: 5.5rem;
+    font-size: 5rem;
     font-weight: bold;
-    letter-spacing: 0.1rem;
+    letter-spacing: -0.1rem;
     text-transform: lowercase;
  }
  .innerbox p {
@@ -152,6 +152,7 @@ body {
     text-transform: lowercase;
    }
   .grid-item .grid-item {
+      border-radius: 50%;
       padding-bottom: 13.5rem;
       position: fixed;
       transform: rotate(0deg);
@@ -204,3 +205,8 @@ body {
     background-color: #DFB4E6;
     color: #B22097;
   }
+    @media screen and (min-width: 1200px) {
+        .home .home-banner .innerbox h1 {
+            width: 51%;
+        }
+    }
