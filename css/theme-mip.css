@@ -453,6 +453,7 @@ li:nth-child(-n+13).grid__item::after {
 	.grid-frame .grid__item--title {
 		-webkit-writing-mode: horizontal-tb;
 		writing-mode: horizontal-tb;
+		transform: rotate(0deg);
 	}
 }
 
